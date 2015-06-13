@@ -20,7 +20,7 @@
     "resources": {
         "media": [
             {
-                "file": "images/senerya.png",
+                "file": "images/senyera2.png",
                 "name": "IMAGE_SENYERA",
                 "type": "png"
             },
@@ -41,6 +41,7 @@
     "sdkVersion": "3",
     "shortName": "RellotgeCat",
     "targetPlatforms": [
+        "aplite",
         "basalt"
     ],
     "uuid": "31c2b740-69ae-483c-936c-5bdb4b5f2cad",
