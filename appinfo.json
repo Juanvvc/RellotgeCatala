@@ -1,0 +1,51 @@
+{
+    "appKeys": {
+        "batterybarstyle": 7,
+        "btdisalert": 4,
+        "btrealert": 5,
+        "cleanerlook": 10,
+        "covertext": 3,
+        "hidebattery": 0,
+        "hidebticon": 1,
+        "lang": 9,
+        "showminute": 8,
+        "theme": 2
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Juan Vera",
+    "longName": "RellotgeCatala",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/senerya.png",
+                "name": "IMAGE_SENYERA",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9a-zA-Z' \u00e9\u00e7/,]",
+                "file": "fonts/Montserrat-Regular.ttf",
+                "name": "FONT_TIME_12",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9a-zA-Z' \u00e9\u00e7/,]",
+                "file": "fonts/Montserrat-Regular.ttf",
+                "name": "FONT_TIME_32",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "RellotgeCat",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "31c2b740-69ae-483c-936c-5bdb4b5f2cad",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
