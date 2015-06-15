@@ -1,18 +1,14 @@
 {
     "appKeys": {
-        "batterybarstyle": 7,
-        "btdisalert": 4,
-        "btrealert": 5,
-        "cleanerlook": 10,
-        "covertext": 3,
-        "hidebattery": 0,
-        "hidebticon": 1,
-        "lang": 9,
-        "showminute": 8,
-        "theme": 2
+        "KEY_HIDEDATE": 1,
+        "KEY_HIDESENYERA": 0,
+        "KEY_HORALIGN": 4,
+        "KEY_INVERT": 2,
+        "KEY_LCASE": 5,
+        "KEY_VERALIGN": 3
     },
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "Juan Vera",
     "longName": "RellotgeCatala",
@@ -44,8 +40,8 @@
         "aplite",
         "basalt"
     ],
-    "uuid": "31c2b740-69ae-483c-936c-5bdb4b5f2cad",
-    "versionLabel": "1.0",
+    "uuid": "644b9192-1427-4392-a590-8defc44a37a2",
+    "versionLabel": "1.5",
     "watchapp": {
         "watchface": true
     }
