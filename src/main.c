@@ -28,7 +28,6 @@ static bool hide_senyera = false;
 static bool invert_colors = false;
 
 // configuration received from the remote server
-// All of them are TUPLE_INT
 enum CommunicationKey {
   KEY_HIDESENYERA = 0x0,
   KEY_HIDEDATE = 0x1,
@@ -136,15 +135,17 @@ static void update_time() {
     // special case: gairebe "the next hour" (with article, not 'de')
     strcat(buffer, string_minutes[m]);
     strcat(buffer, string_hours[( h + 1 ) % 12]);
-  } if ( h == 3 ) {
+  } else if ( h == 3 && ( m == 8 || m == 12 || m == 10 ) ) {
     // This is an ugly but easy fix for an inconvenience:
-    // h==4 and (m==8 or m==12) are too big to fit on the screen
+    // h==4 and (m==8 or m==12 or m==10) are too big to fit on the screen
     // let's use shorter text in these cases!
     // we could use a shorter font, but I prefer not wasting resources
     if ( m == 8 ) {
       strcat(buffer, "quarts tocats de quatre");
-    } else if ( m == 12 ) {
+    } else if (m == 12)  { 
       strcat(buffer, "3/4 tocats de quatre");
+    } else { // m == 10
+      strcat(buffer, "vora 3/4 de quatre");
     }
   } else {
     // normal cases
