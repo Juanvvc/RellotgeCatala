@@ -100,7 +100,7 @@ static const char *string_months[] = {
   " de maig",
   " de juny",
   " de juliol",
-  " de agost",
+  " d'agost",
   " de setembre",
   " d'octubre",
   " de novembre",
